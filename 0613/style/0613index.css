@@ -1,0 +1,222 @@
+@charset "utf-8";
+
+* {
+    font-family: 'NanumSquareNeo';
+    box-sizing: border-box; margin: 0;
+    }
+
+ul {list-style: none; padding: 0;}
+a {text-decoration:none;}
+
+#navBox {
+    width: 100%; height: 60px;
+    background: #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    position: fixed;     /*화면에 고정*/
+    top:0; left:0;
+    z-index: 9;
+}
+
+#navBox2 {
+    width: 100%; max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+#logoBox {
+    width: 20%;
+    position: relative;
+}
+
+#logo {
+    width: 100%; max-width: 120px;
+    position: absolute;
+    top: 50; left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 30px;
+}
+
+
+#navi {
+    width: 100%; height: 60px;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;       /* 폰트 크기 ↑ */
+    margin: 13px;
+    padding: 9px 13px 6px 13px; cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+#button1 {
+    color: #fff;
+    background: #0081cc;
+    border-radius: 6px;
+    box-shadow: 0 1px 0px rgba(0,0,0,0.5);
+}
+#button2 {  
+    background: #d6d6d6;
+    border-radius: 6px;
+    box-shadow: 0 1px 0px rgba(0,0,0,0.5);
+}
+
+#power {margin-right: 5px; margin-top: 2px;}
+
+#shield {margin-right: 5px; margin-top: 2px;}
+
+.main {
+
+}
+
+.main > a {     /*각 메뉴 링크*/
+    display: block;
+    padding: 1em;
+    color: #000;
+    margin: 8px 0;
+    font-size: 15px;
+    line-height: 100%;
+    font-weight: bold;
+}
+
+#header {
+    position: relative;
+    margin-top: 60px;
+}
+
+#headerImage {
+    width: 100%; display: block;
+}
+
+#headerBox {
+    position: absolute;
+    text-align: center;
+}
+
+#navi2 {
+    
+}
+
+
+#menu2 {
+    background: linear-gradient(to right, #0081cc 50%, #ffffff 51%);
+    border-radius: 100px;
+    margin: 10px 10px;
+    width: 100%; max-width: 700px; height: 110px;
+    position: absolute;
+    top: 100%; left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    
+    
+}
+.sub > a {
+    width: 100%;
+    display: block;
+    padding: 28px 30px;
+    color: white;
+    font-size: 1.5em;
+    line-height: 30px;
+    font-weight: bolder;
+}
+
+.sub {
+    height: 110px; 
+}
+.blue  {
+    padding-top: 13px;
+    background: linear-gradient(to right, #3a8dfd 99%, #ffffff 100%);
+}
+
+.white {
+    height: 90px;
+    padding-top: 3px;
+    background: #fff;
+    color: #000;
+    transform: translateY(10px);
+}
+.white > .mainLink {
+    color: #000;
+}
+
+.mainLink {}
+
+
+section {
+    width: 100%; max-width: 1200px; 
+    margin: 100px auto;
+    text-align: center;
+}
+
+#sec1 {
+    margin-top: 4em;
+    position: relative;
+}
+#setBox {
+    display: grid;
+    grid-template-columns: 8fr 3fr;
+}
+.set {
+    display: inline;
+    grid-template-columns: 4fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1em;
+}
+
+.sectionTitle1 {
+    font-family: 'MaruBuriBold';
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    text-align: left; margin-left: 50px;
+}
+
+#listBox1 {
+    display: grid;
+
+    width: 100%;
+    grid-template-columns: repeat(8,1fr);
+    gap: 1em;
+
+}
+
+#listBox2 {
+    display: grid;
+
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em;
+
+}
+
+.list1 {}
+
+.icon1 { 
+    
+}
+
+#imageBox {
+    
+    
+}
+
+.list2 {
+    width: 100%; max-width: 307px;
+    border: 1px solid #d1d1d1;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+.text {
+    margin-top: 10px;
+}
